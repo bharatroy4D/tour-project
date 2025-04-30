@@ -2,8 +2,8 @@ import React from 'react';
 import { FaStar, FaStarHalfAlt, FaRegStar, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
-const Popular = ({ popular }) => {
-    const { name, price, rating, image, description } = popular;
+const Tour = ({ tour }) => {
+    const { name, price, rating, image, description } = tour;
 
     return (
         <motion.div
@@ -57,13 +57,11 @@ const Popular = ({ popular }) => {
 
                     {/* Location & Button Row */}
                     <div className="flex justify-between items-center">
-                        {/* Location Icon */}
                         <div className="flex items-center text-gray-600 text-sm gap-1">
                             <FaMapMarkerAlt className="text-blue-500" />
                             <span>View on Map</span>
                         </div>
 
-                        {/* View Button */}
                         <motion.button
                             className="bg-blue-600 text-white text-sm px-3 py-2 rounded-md hover:bg-blue-700 transition duration-300"
                             whileTap={{ scale: 0.95 }}
@@ -77,4 +75,4 @@ const Popular = ({ popular }) => {
     );
 };
 
-export default Popular;
+export default Tour;

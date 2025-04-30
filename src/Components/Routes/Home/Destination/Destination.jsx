@@ -55,7 +55,7 @@ const Destination = () => {
                 <div className='w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4 py-10'>
 
                     {/* Card 1: From */}
-                    <div className='bg-gradient-to-br from-white to-purple-50 shadow p-6 rounded border border-base-300 hover:shadow-xl transition duration-300'>
+                    <div className='bg-gradient-to-br from-white to-purple-50 shadow p-6 rounded-xl border border-base-300 hover:shadow-xl transition duration-300'>
                         <div className='flex justify-between items-center mb-4 text-purple-700'>
                             <h2 className='font-bold text-lg'>From</h2>
                             <FaPlaneDeparture className='text-2xl' />
@@ -69,7 +69,7 @@ const Destination = () => {
                     </div>
 
                     {/* Card 2: To */}
-                    <div className='bg-gradient-to-br from-white to-purple-50 shadow p-6 rounded border border-base-300 hover:shadow-xl transition duration-300'>
+                    <div className='bg-gradient-to-br from-white to-purple-50 shadow p-6 rounded-xl border border-base-300 hover:shadow-xl transition duration-300'>
                         <div className='flex justify-between items-center mb-4 text-purple-700'>
                             <h2 className='font-bold text-lg'>To</h2>
                             <PiAirplaneLandingFill className='text-2xl' />
@@ -83,7 +83,7 @@ const Destination = () => {
                     </div>
 
                     {/* Card 3: Date */}
-                    <div className='bg-gradient-to-br from-white to-purple-50 shadow p-6 rounded border border-base-300 hover:shadow-xl transition duration-300'>
+                    <div className='bg-gradient-to-br from-white to-purple-50 shadow p-6 rounded-xl border border-base-300 hover:shadow-xl transition duration-300'>
                         <div className='flex justify-between items-center mb-4 text-purple-700'>
                             <h2 className='font-bold text-lg'>Date</h2>
                         </div>
