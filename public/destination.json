@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Cox's Bazar",
+        "category": "Beach",
+        "price": 12000,
+        "image": "https://i.pinimg.com/736x/a0/57/c6/a057c616618c71bdeaeaafa0836d9b29.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Sundarbans",
+        "category": "Forest/Wildlife",
+        "price": 18000,
+        "image": "https://i.pinimg.com/736x/50/bf/00/50bf004e67b4720893231871f2d246ea.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Sylhet",
+        "category": "Hill Station/Nature",
+        "price": 15000,
+        "image": "https://i.pinimg.com/736x/1b/f7/f9/1bf7f91a2a66f9c76c316bd11ec5f657.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Srimangal",
+        "category": "Tea Garden/Nature",
+        "price": 10000,
+        "image": "https://i.pinimg.com/736x/9e/72/47/9e72471391bf84f06084e8b4f0c1bc1f.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Saint Martin's Island",
+        "category": "Island/Beach",
+        "price": 14000,
+        "image": "https://www.shutterstock.com/shutterstock/videos/1057314088/thumb/1.jpg?ip=x480"
+    },
+    {
+        "id": 6,
+        "title": "Bandarban",
+        "category": "Hill Station/Tribal Culture",
+        "price": 13000,
+        "image": "https://www.tbsnews.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/images/2020/11/25/pic_01.jpggit "
+    }
+]

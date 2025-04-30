@@ -1,10 +1,16 @@
-import React from 'react';
+import Destination from "./Destination/Destination";
+import Populars from "./Populars/Populars";
+import TourFacility from "./TourFacility/TourFacility";
+
 
 const Home = () => {
+
     return (
-        <div>
-            this is home
-        </div>
+     <div>
+        <Destination/>
+        <Populars/>
+        <TourFacility/>
+     </div>
     );
 };
 

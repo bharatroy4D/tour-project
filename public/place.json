@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "name": "Cox’s Bazar",
+      "image": "https://utopiaeducators.com/content/images/2020/09/csm_Cox_s_Bazar_01_a667e1ee70.jpg",
+      "description": "The longest unbroken sea beach in the world, perfect for relaxation ",
+      "category": "Beach",
+      "price": 5000,
+      "rating": 4.9,
+      "location": "Cox’s Bazar, Chattogram"
+    },
+    {
+      "id": 2,
+      "name": "Sundarbans",
+      "image": "https://i.pinimg.com/736x/a8/b6/1b/a8b61b57d82792ac55259542e967a6b4.jpg",
+      "description": "A UNESCO World Heritage Site and home to the Royal Bengal Tiger.",
+      "category": "Wildlife",
+      "price": 7000,
+      "rating": 4.8,
+      "location": "Khulna, Bagerhat, Satkhira"
+    },
+    {
+      "id": 3,
+      "name": "Saint Martin",
+      "image": "https://i.pinimg.com/736x/19/5f/01/195f01179b6cb23ed00a367d430b258e.jpg",
+      "description": "A beautiful coral island with crystal-clear water and serene.",
+      "category": "Island",
+      "price": 6000,
+      "rating": 4.7,
+      "location": "Teknaf, Cox’s Bazar"
+    },
+    {
+      "id": 4,
+      "name": "Sajek Valley",
+      "image": "https://i.pinimg.com/736x/75/64/54/756454e4f3a20a230882ed42ca13b926.jpg",
+      "description": "A breathtaking hilltop destination with stunning sunrise and sunset.",
+      "category": "Historical",
+      "price": 4500,
+      "rating": 4.8,
+      "location": "Rangamati, Chattogram"
+    },
+    {
+      "id": 5,
+      "name": "Rangamati",
+      "image": "https://i.pinimg.com/736x/12/1b/78/121b786ca8343a64618876639bbadba8.jpg",
+      "description": "A peaceful hill district known for its beautiful lakes, waterfalls, and.",
+      "category": "Historical",
+      "price": 4000,
+      "rating": 4.6,
+      "location": "Rangamati, Chattogram"
+    },
+    {
+      "id": 6,
+      "name": "Bandarban",
+      "image": "https://i.pinimg.com/736x/67/df/4a/67df4a78228d501abbc9207b5a2117f7.jpg",
+      "description": "Explore the green hills, waterfalls, and tribal lifestyle of Bandarban.",
+      "category": "Hill",
+      "price": 4800,
+      "rating": 4.7,
+      "location": "Bandarban, Chattogram"
+    },
+    {
+      "id": 7,
+      "name": "Jaflong",
+      "image": "https://i.pinimg.com/736x/67/61/ae/6761aeb1df309fc8ac3fea389fe8454b.jpg",
+      "description": "A picturesque destination with rolling hills and crystal-clear rivers.",
+      "category": "Nature",
+      "price": 3500,
+      "rating": 4.5,
+      "location": "Sylhet"
+    },
+    {
+      "id": 8,
+      "name": "Paharpur",
+      "image": "https://i.pinimg.com/736x/4e/0d/3c/4e0d3c466dc2a321a7861e6e8005b717.jpg",
+      "description": "A historical site with the ruins of an ancient Buddhist monastery.",
+      "category": "Historical",
+      "price": 3000,
+      "rating": 4.6,
+      "location": "Naogaon"
+    },
+    {
+      "id": 9,
+      "name": "Kuakata",
+      "image": "https://i.pinimg.com/736x/f6/9b/ea/f69bea6537043df089e23d0b9ee08f64.jpg",
+      "description": "Known as the 'Daughter of the Sea', famous for sunrise and.",
+      "category": "Beach",
+      "price": 5200,
+      "rating": 4.7,
+      "location": "Patuakhali"
+    },
+    {
+      "id": 10,
+      "name": "Puthia Temple",
+      "image": "https://i.pinimg.com/736x/e5/55/6a/e5556added1608364aa655a94b8aff2b.jpg",
+      "description": "A historical site with stunning Hindu temples and intricate.",
+      "category": "Historical",
+      "price": 2500,
+      "rating": 4.5,
+      "location": "Rajshahi"
+    },
+    {
+      "id": 11,
+      "name": "Mahasthangarh",
+      "image": "https://i.pinimg.com/736x/0e/57/93/0e5793d3a030e8a17cd8263cdc0da633.jpg",
+      "description": "The oldest archaeological site in Bangladesh, with remnants of.",
+      "category": "Historical",
+      "price": 2800,
+      "rating": 4.7,
+      "location": "Bogra"
+    },
+    {
+      "id": 12,
+      "name": "Ratargul Swamp",
+      "image": "https://i.pinimg.com/736x/4a/98/ff/4a98ff21152ab67827983407d3e3ee27.jpg",
+      "description": "A stunning freshwater swamp forest, a must-visit for nature.",
+      "category": "Nature",
+      "price": 3200,
+      "rating": 4.6,
+      "location": "Sylhet"
+    },
+    {
+      "id": 13,
+      "name": "Lawachara Park",
+      "image": "https://i.pinimg.com/736x/19/d8/1d/19d81d78c611bc61f0e66dff4715f36b.jpg",
+      "description": "A rich biodiversity hotspot and home to rare species like the",
+      "category": "Wildlife",
+      "price": 3700,
+      "rating": 4.7,
+      "location": "Moulvibazar, Sylhet"
+    },
+    {
+      "id": 14,
+      "name": "Sonargaon",
+      "image": "https://i.pinimg.com/736x/fd/2f/75/fd2f75de4906004e8900d47eb32a06ba.jpg",
+      "description": "The ancient capital of Bengal, filled with historic buildings and folk art.",
+      "category": "Historical",
+      "price": 2900,
+      "rating": 4.5,
+      "location": "Narayanganj"
+    },
+    {
+      "id": 15,
+      "name": "Bichanakandi",
+      "image": "https://i.pinimg.com/736x/e2/4b/6b/e24b6bf4245a58e1e3a6cc1069ac1b00.jpg",
+      "description": "A natural wonder with stone fields, rivers, and green hills meeting the.",
+      "category": "Nature",
+      "price": 3400,
+      "rating": 4.8,
+      "location": "Sylhet"
+    },
+    {
+      "id": 16,
+      "name": "Tanguar Haor",
+      "image": "https://i.pinimg.com/736x/07/23/df/0723df833cd87aa0c6c2a9fd342b8485.jpg",
+      "description": "A vast wetland ecosystem with stunning views, perfect for boat.",
+      "category": "Nature",
+      "price": 3800,
+      "rating": 4.9,
+      "location": "Sunamganj"
+    }
+  ]
+
