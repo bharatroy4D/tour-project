@@ -68,7 +68,7 @@ const Populars = () => {
 
     return (
         <div className='w-11/12 mx-auto py-10 relative'>
-            <h1 className='text-3xl font-bold mb-6'>Popular Destination</h1>
+            <h1 className='text-3xl font-bold mb-6 '>Popular Destination</h1>
             <Slider {...settings}>
                 {filterPlace.map(popular => (
                     <div key={popular.id} className="px-2">

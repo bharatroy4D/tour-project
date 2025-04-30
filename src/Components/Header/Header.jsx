@@ -5,9 +5,9 @@ import { IoIosSearch } from 'react-icons/io';
 
 const Header = () => {
     return (
-        <div className='w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center py-5'>
+        <div className='w-11/12 poppins mx-auto flex flex-col md:flex-row justify-between items-center py-5'>
             {/* Logo */}
-            <img src={hero_logo} alt="Logo" className='w-40 mb-4 md:mb-0' />
+            <img src={hero_logo} alt="Logo" className='w-44 mb-4 md:mb-0' />
 
             {/* Navigation */}
             <div className='flex gap-6 text-lg text-white flex-wrap justify-center mb-4 md:mb-0'>
