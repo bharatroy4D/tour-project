@@ -1,4 +1,6 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FaStar, FaStarHalfAlt, FaRegStar, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
@@ -14,7 +16,7 @@ const Tour = ({ tour }) => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, ease: "easeOut" }}
         >
-            <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all duration-500">
+            <div data-aos="fade-up" className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all duration-500">
                 {/* Image */}
                 <motion.img
                     className="w-full h-40 object-cover"
@@ -23,7 +25,6 @@ const Tour = ({ tour }) => {
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.3 }}
                 />
-
                 {/* Content */}
                 <div className="p-3">
                     <h2 className="text-lg font-medium text-gray-800 mb-1">{name}</h2>

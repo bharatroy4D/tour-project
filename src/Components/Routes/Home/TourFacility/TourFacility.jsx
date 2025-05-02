@@ -1,4 +1,6 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FaGlobeAmericas, FaMapSigns, FaBus } from 'react-icons/fa';
 
 const TourFacility = () => {
@@ -7,7 +9,7 @@ const TourFacility = () => {
             <div className="w-11/12 mx-auto px-6 ">
                 <h2 className="text-4xl font-semibold text-center mb-12 text-purple-600">Our Tour Facilities</h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div data-aos="zoom-in" className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Card 1: Global Tour */}
                     <div className="bg-white shadow-md p-6 rounded text-center hover:shadow-xl transition-all">
                         <FaGlobeAmericas className="text-4xl text-purple-600 mb-4 mx-auto" />

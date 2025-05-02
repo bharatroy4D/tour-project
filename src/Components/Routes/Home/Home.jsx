@@ -4,7 +4,6 @@ import Populars from "./Populars/Populars";
 import TourFacility from "./TourFacility/TourFacility";
 import Tourplace from "./TourPlace/Tourplace";
 
-
 const Home = () => {
 
     return (
