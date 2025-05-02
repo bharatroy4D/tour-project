@@ -1,4 +1,7 @@
-import React from 'react';
+// import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FaPlaneDeparture, FaSearch } from 'react-icons/fa';
 
 import {
@@ -32,8 +35,11 @@ const icons = {
     FaShip
 };
 const Destination = () => {
+    useEffect(() => {
+        AOS.init({ duration:1000 });
+    }, []);
     return (
-        <div className='bg-base-300'>
+        <div className='bg-base-300' data-aos="fade-up">
             {/* // Destination category  */}
             <div className='flex flex-wrap justify-center gap-6 p-5'>
                 {category.map(item => {
