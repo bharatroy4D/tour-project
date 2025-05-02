@@ -8,7 +8,7 @@ import {
 
 const Top = () => {
     return (
-        <div className='hidden md:block w-11/12 mx-auto border-b border-gray-300/30 py-2'>
+        <div className='hidden lg:block w-11/12 mx-auto border-b border-gray-300/30 '>
             <div className='flex flex-col md:flex-row justify-between items-center gap-2 text-white'>
                 {/* Social icons and contact info */}
                 <div className='flex flex-wrap justify-center md:justify-start gap-3 text-xl items-center'>
