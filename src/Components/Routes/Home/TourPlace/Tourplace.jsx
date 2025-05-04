@@ -38,7 +38,7 @@ const Tourplace = () => {
     const currentItems = filteredPlaces.slice(startIndex, startIndex + itemsPerPage);
 
     return (
-        <div className='w-11/12 mx-auto py-10'>
+        <div className='max-w-sm md:max-w-md lg:max-w-7xl px-5 md:px-10 lg:20 mx-auto py-10'>
             {/* travel category */}
             <div className='flex justify-between items-center flex-wrap gap-4 mb-8'>
                 <h1 className='text-3xl font-bold'>Travel Places</h1>

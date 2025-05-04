@@ -21,7 +21,7 @@ const DemoPlace = () => {
     }, []);
 
     return (
-        <div className="w-11/12 mx-auto py-10">
+        <div className="max-w-sm md:max-w-md lg:max-w-7xl px-5 md:px-10 lg:20 mx-auto py-10">
             <h2 className="text-3xl font-bold text-center mb-8">Explore Demo Places</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

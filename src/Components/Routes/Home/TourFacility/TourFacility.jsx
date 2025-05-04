@@ -5,8 +5,8 @@ import { FaGlobeAmericas, FaMapSigns, FaBus } from 'react-icons/fa';
 
 const TourFacility = () => {
     return (
-        <div className="bg-gray-100 py-16">
-            <div className="w-11/12 mx-auto px-6 ">
+        <div className="bg-gray-100 max-w-sm md:max-w-md lg:max-w-7xl px-5 md:px-10 lg:20 py-10 mx-auto">
+            <div className=" mx-auto  ">
                 <h2 className="text-4xl font-semibold text-center mb-12 text-purple-600">Our Tour Facilities</h2>
 
                 <div data-aos="zoom-in" className="grid grid-cols-1 md:grid-cols-3 gap-8">

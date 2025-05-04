@@ -4,9 +4,9 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaPhoneAlt, FaEnvelope,
 const Footer = () => {
   return (
     <div className="bg-gray-900 text-white py-10">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-sm md:max-w-md lg:max-w-7xl px-5 md:px-10 lg:20 mx-auto">
         {/* Footer Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 justify-between">
           {/* Column 1: Logo and About */}
           <div>
             <h2 className="text-4xl font-bold text-purple-600 mb-4">TravelMate</h2>
