@@ -25,7 +25,7 @@ const Header = () => {
         scrolled ? 'bg-blue-600 shadow-md' : 'lg:bg-transparent'
       }`}
     >
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-10 lg:px-20 ">
         <div className="flex justify-between items-center py-3">
           {/* Logo */}
           <img src={hero_logo} alt="Logo" className="w-40 flex-shrink-0" />

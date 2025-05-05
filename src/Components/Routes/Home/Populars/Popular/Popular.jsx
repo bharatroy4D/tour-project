@@ -8,7 +8,7 @@ const Popular = ({ popular }) => {
     return (
         <div data-aos="fade-up">
             <motion.div
-                className="max-w-xs"
+                className="max-w-xs lg:max-w-7xl"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 whileHover={{ scale: 1.03 }}

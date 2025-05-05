@@ -42,12 +42,12 @@ const Populars = () => {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        // nextArrow: <CustomNextArrow />,
-        // prevArrow: <CustomPrevArrow />,
+        nextArrow: <CustomNextArrow />,
+        prevArrow: <CustomPrevArrow />,
     };
 
     return (
-        <div className='b max-w-sm md:max-w-md lg:max-w-7xl px-5 md:px-10 lg:px-20  py-10 '>
+        <div className=' max-w-sm md:max-w-md lg:max-w-7xl px-5 md:px-10 lg:px-20 py-10 mx-auto '>
             <h1 className='text-3xl font-bold mb-6'>Popular Destination</h1>
             <Slider {...settings}>
                 {filterPlace.map(popular => (
